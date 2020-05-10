@@ -1,0 +1,232 @@
+﻿
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+    background: rgba(0,0,0,0);
+    padding: 2rem;
+        
+    border-radius: 3px;
+}
+
+.jumbotron-background {
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+/*img.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}*/
+
+.nav-item .nav-link{
+    color:black;
+    text-decoration: none;
+    font-size:18px;
+    opacity:unset;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.navbar{
+    min-height:80px;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: rgb(225, 15, 40);
+    transition: 0.2s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.navbar-nav > li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#Button1 {
+    background-color: rgb(225, 15, 40);
+    outline:none;
+}
+
+
+#card1 {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: white;
+}
+#card2 {
+    background-color: rgb(225, 15, 40);
+    text-align: center;
+    color: white;
+}
+#card3 {
+    background-color: rgb(209, 11, 34);
+    text-align: center;
+    color: white;
+}
+#card4 {
+    background-color: rgb(186, 11, 28);
+    color:white;
+    text-align: center;
+}
+#card5 {
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+    color: white;
+}
+
+
+.profile-card-1 {
+    margin-top: 20px;
+}
+
+    .profile-card-1 .btn {
+        border-radius: 2px;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+
+    .profile-card-1 .card-img-block {
+        width: 91%;
+        margin: 0 auto;
+        position: relative;
+        top: -20px;
+    }
+
+        .profile-card-1 .card-img-block img {
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.63);
+        }
+
+    .profile-card-1 h5 {
+        color: #4E5E30;
+        font-weight: 600;
+    }
+
+    .profile-card-1 p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .profile-card-1 .btn-primary {
+        background-color: #4E5E30;
+        border-color: #4E5E30;
+    }
+
+
+
+
+
+
+
+/*h6 {
+    font-size: 12px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 10px;
+    font-weight: 300;
+}
+
+.text-gray {
+    color: #999 !important;
+}
+
+#foundersTitle{
+    font-weight: 700 !important;
+    margin-top: 10px;
+    color: #3c4858;
+    font-family: Roboto Slab,Times New Roman,serif;
+}
+
+#foundersProfile {
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    border-radius: 6px !important;
+    color: rgba(0,0,0,.87);
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+#foundersProfile #foundersBody {
+    padding: .9375rem 1.875rem;
+}
+
+#foundersDescr {
+    color: #999;
+}
+
+#foundersProfile {
+    text-align: center;
+}
+
+    #foundersProfile #foundersHeader #foundersHeader-image {
+        position: relative;
+        padding: 0;
+        z-index: 1;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: -30px;
+        border-radius: 6px;
+        max-height: 215px;
+    }
+
+        #foundersProfile #foundersHeader #foundersHeader-image a {
+            display: block;
+        }
+
+        #foundersProfile #foundersHeader #foundersHeader-image img {
+            width: 100%;
+            height: 215px;
+            border-radius: 6px;
+            pointer-events: none;
+            box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+        }
+
+        #foundersProfile #foundersHeader #foundersHeader-image #foundersShadow {
+            transform: scale(.94);
+            top: 12px;
+            filter: blur(12px);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            z-index: -1;
+            transition: opacity .45s;
+            opacity: 1;
+        }
+
+    #foundersProfile #foundersHeader #foundersHeader-image-image .foundersTitle {
+        position: absolute;
+        bottom: 5px;
+        left: 15px;
+        color: #fff;
+        font-size: 1.125rem;
+        text-shadow: 0 2px 5px rgba(33,33,33,.5);
+        font-weight: 700;
+        font-family: 'Roboto Slab';
+    }*/
