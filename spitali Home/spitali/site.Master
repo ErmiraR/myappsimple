@@ -22,7 +22,7 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top py-md-2">
                 <a class="navbar-brand" href="#">
-                    <img src="logo.png" width="110" /></a>
+                    <img src="images/logo.png" width="110" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -60,15 +60,15 @@
             </asp:ContentPlaceHolder>
 
 
-            <!--Copyright-->
+           
             <footer>
                 <div class="footer-copyright py-3">
                     © 2019 Copyright:
                 </div>
-                <!--/.Copyright-->
+               
 
             </footer>
-            <!--/.Footer-->
+            
         </div>
     </form>
 </body>

@@ -5,7 +5,7 @@
 
     <div class="jumbotron jumbotron-fluid bg-dark">
         <div class="jumbotron-background">
-            <img src="3.jpg">
+            <img src="images/3.jpg">
         </div>
         <div class="container text-white">
             <h1 class="display-3">We take care</h1>
@@ -73,8 +73,11 @@
                 </div>
             </div>
         </div>
+
+        <%--Departamentet--%>
+
         <div class="row">
-            <img src="d2.png" class="img-fluid" alt="Responsive image">
+            <img src="images/d2.png" class="img-fluid" alt="Responsive image">
         </div>
     </div>
      <div class="container-fluid">
@@ -151,7 +154,7 @@
         <div class="col-md-4 mt-4">
             <div class="card profile-card-1">
                 <div class="card-img-block">
-                    <img class="card-img-top" src="f1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/f1.jpg" alt="Card image cap">
                 </div>
                 <div class="card-body pt-0">
                     <h5 class="card-title">Florence Garza</h5>
@@ -163,7 +166,7 @@
                 <div class="col-md-4 mt-4">
                 <div class="card profile-card-1">
                     <div class="card-img-block">
-                        <img class="card-img-top" src="f2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/f2.jpg" alt="Card image cap">
                     </div>
                     <div class="card-body pt-0">
                         <h5 class="card-title">Florence Garza</h5>
@@ -189,16 +192,16 @@
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
 
-        //>=, not <=
+        
         if (scroll >= 60) {
-            //clearHeader, not clearheader - caps H
+            
             $(".navbar").addClass("bg-light");
         } else {
             $(".navbar").removeClass("bg-light");
         }
-    }); //missing );
+    }); 
 
-    // document ready  
+    
 });
     </script>
 </asp:Content>
